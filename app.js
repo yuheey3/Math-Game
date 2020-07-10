@@ -11,9 +11,7 @@ app.use(express.static("public"));
 app.use((req, res) => {
     res.sendFile(path.join(__dirname + "/Public/index.html"));
 });
-app.use("/", (req, res) => {
-    res.render("Home/404");
-});
+
 
 app.listen(HTTP_PORT, ()=>{
     console.log("listening on port: " + HTTP_PORT);
