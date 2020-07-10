@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Math game</title>
+    <link href="../CSS/score.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Courgette|Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2>Yuki <span>Math Game</span> Result</h2>
+    </header>
+    <br>
+    <section id="container">
+        <div></div>
+        <div id="box">
+            <br><br>
+            <div id="result">
+                <div>
+                    <p id="name">Name: </p>
+                    <p id="age">Age: </p>
+                </div>
+                <div>
+                    <p id="scoResult">SCORE : <span></span></p>
+                    <p id="hitResult">HITS : <span></span></p>
+                    <p id="missResult">MISS : <span></span></p>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </section>
+    <section id="container2">
+        <div></div>
+        <div id="box2">
+            <br>
+            <div id="result2">
+                <div>
+                    <h3>Level 1</h3>
+                    <p id="lv1hits">Hits:<span></span></p>
+                    <p id="lv1miss">Miss: <span></span></p>
+                </div>
+                <div>
+                    <h3>Level 2</h3>
+                    <p id="lv2hits">Hits:<span></span></p>
+                    <p id="lv2miss">Miss: <span></span></p>
+                </div>
+                <div>
+                    <h3>Level 3</h3>
+                    <p id="lv3hits">Hits:<span></span></p>
+                    <p id="lv3miss">Miss: <span></span></p>
+                </div>
+            </div>
+        </div>
+        <div></div>
+        <div>
+            <img class="btnAudio" src="../IMG/audioicon.png" onclick="play()">
+            <audio id="audio" src="../HTML/music.mp3"></audio>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <img src="../IMG/score1.png" id="fixed">
+        </div>
+    </footer>
+    <script src="../JavaScript/score.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Math game</title>
+    <link href="../CSS/Start.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Courgette|Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+       
+    <h1>Yuki <span>Math Game</span></h1>
+    <p>Click on level below to play</p>
+
+    <section id="Level">
+        <div class="lev">
+            <h5>Level1</h5>
+            <h6>ADD</h6>
+            <p> <span>example:</span> 8 + 3 = 11</p>
+        </div>
+        <div class="lev">
+            <h5>Level2</h5>
+            <h6>SUBSTRACT</h6>
+            <p> <span>example:</span> 8 - 3 = 5</p>
+        </div>
+        <div class="lev">
+            <h5>Level3</h5>
+            <h6>DIVISION</h6>
+            <p><span> example:</span> 4 / 2 = 2 </p>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <div>
+        <img class="btnAudio" src="../IMG/audioicon.png" onclick="play()">
+        <audio id="audio" src="../HTML/music.mp3"></audio>
+    </div>
+    <section id="start">
+        <div id="startbtn">
+            <h3>Start</h3>
+        </div>
+        <div id="restartbtn">
+            <h3>Restart</h3>
+        </div>
+    </section>
+    <script src="../JavaScript/Start.js"></script>
+</div>
+</body>
+
+</html>

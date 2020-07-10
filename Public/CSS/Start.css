@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: center;
+    background-image: url("../Img/rila.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+#container {
+    top:0px;
+    padding-top:0;
+    margin:auto; position:relative;
+    width:950px;
+    height:100%;
+  
+}
+
+h1 {
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+    color: yellow;
+    text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+}
+
+    h1 > span {
+        color: red;
+    }
+
+    h1 > p {
+        padding: 1rem 0 1rem 0;
+    }
+
+#Level {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 0 3rem 0;
+}
+
+.lev {
+    background-color: #ffadc5;
+    margin: 0 1rem 0 1rem;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: deeppink;
+    padding: 0.5rem 0 0.5rem 0;
+    text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
+}
+
+h6 {
+    color: white;
+    font-size: 1.6rem;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+.lev > p {
+    color: black;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+    .lev > p > span {
+        color: green;
+    }
+
+#start {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 0 2rem 0;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.btnAudio {
+    display: none;
+}
+#start > div:nth-child(1) > h3 {
+    color: red;
+    margin: 0 2rem 0 2rem;
+    background-color: #1b1919;
+    padding: 3rem 0 3rem 0;
+    margin: 0 6rem 0 6rem;
+    border: 3px solid #808080;
+    text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
+}
+
+#start > div:nth-child(2) > h3 {
+    color: blue;
+    margin: 0 2rem 0 2rem;
+    background-color: #1b1919;
+    padding: 3rem 0 3rem 0;
+    margin: 0 6rem 0 6rem;
+    border: 3px solid #808080;
+    text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
+}

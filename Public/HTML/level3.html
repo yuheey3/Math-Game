@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Math game</title>
+    <link href="../CSS/Level3.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Courgette|Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body onmousemove="mouseMove(event)">
+    <h2>Level 3</h2>
+
+    <div id="mouse">
+        <h1><span id="number1">0</span> / <span id="number2"> 0 </span> = ? </h1>
+    </div>
+    <input type="button" value="save" id="savebtn">
+
+    <section id="container">
+
+        <div class="grid">
+
+            <div id="donut1" onclick="success()">
+                <div class="image">
+                    <img src="../IMG/dd.png">
+                </div>
+                <div class="text">
+                    <p id="realAnswer"> 0</p>
+                </div>
+            </div>
+
+            <div id="donut2" onclick="wrong()">
+                <div class="image">
+                    <img src="../IMG/dd.png">
+                </div>
+                <div class="text">
+                    <p id="answer2"> 0</p>
+                </div>
+            </div>
+
+            <div id="donut3" onclick="wrong()">
+                <div class="image">
+                    <img src="../IMG/dd.png">
+                </div>
+                <div class="text">
+                    <p id="answer3"> 0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+
+            <div id="donut4" onclick="wrong()">
+                <div class="image">
+                    <img src="../IMG/dd.png">
+                </div>
+                <div class="text">
+                    <p id="answer4"> 0</p>
+                </div>
+            </div>
+
+            <div id="donut5" onclick="wrong()">
+                <div class="image">
+                    <img src="../IMG/dd.png">
+                </div>
+                <div class="text">
+                    <p id="answer5"> 0</p>
+                </div>
+            </div>
+
+            <div id="donut6" onclick="wrong()">
+                <div class="image">
+                    <img src="../IMG/dd.png">
+                </div>
+                <div class="text">
+                    <p id="answer1"> 0</p>
+                </div>
+            </div>
+
+            <div id="donut7" onclick="wrong()">
+                <div class="image">
+                    <img src="../IMG/dd.png">
+                </div>
+                <div class="text">
+                    <p id="answer7"> 0</p>
+                </div>
+            </div>
+
+            <div id="donut8" onclick="wrong()">
+                <div class="image">
+                    <img src="../IMG/dd.png">
+                </div>
+                <div class="text">
+                    <p id="answer8"> 0</p>
+                </div>
+            </div>
+
+            <div id="donut9" onclick="wrong()">
+                <div class="image">
+                    <img src="../IMG/dd.png">
+                </div>
+                <div class="text">
+                    <p id="answer9"> 0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <img src="../Img/level3.png" id="fixed">
+    </div>
+    <footer>
+        <div id="score">
+            <p>SCORE : <span id="score1">0</span></p>
+            <p>HITS : <span id="hit">0</span></p>
+            <p>MISS : <span id="miss">0</span></p>
+            <p>TIME : <span id="time">10</span></p>
+        </div>
+        <div>
+            <img class="btnAudio" src="../IMG/audioicon.png" onclick="play()">
+            <audio id="audio" src="../HTML/music.mp3"></audio>
+        </div>
+    </footer>
+    <script src="../JavaScript/Level3.js"></script>
+</body>
+
+</html>
