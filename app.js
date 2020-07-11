@@ -7,11 +7,6 @@ var HTTP_PORT = process.env.PORT || 8080
 
 app.use(express.static("public"));
 
-app.get("/", (req, res) => {
-
-    res.render("index");
-
-});
 
 // Redirect Users to "index.html" if route not accessed using client side routing
 app.use((req, res) => {
