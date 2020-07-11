@@ -6,14 +6,15 @@ var app = express();
 var HTTP_PORT = process.env.PORT || 8080
 
 app.use(express.static("public"));
+app.use(express.static("HTML"));
+app.use(express.static("CSS"));
+app.use(express.static("JavaScript"));
 
 // Redirect Users to "index.html" if route not accessed using client side routing
 app.use((req, res) => {
     res.sendFile(path.join(__dirname + "/public/index.html"));
 });
-app.use('/HTML', express.static(__dirname + '/HTML'));
-app.use('/CSS', express.static(__dirname + '/CSS'));
-app.use('/JavaScript', express.static(__dirname + '/JavaScript'));
+
 
 
 app.listen(HTTP_PORT, ()=>{
