@@ -12,7 +12,7 @@ app.use(express.static("JavaScript"));
 
 // Redirect Users to "index.html" if route not accessed using client side routing
 app.use((req, res) => {
-    res.sendFile(path.join(__dirname + "/public/index.html"));
+    res.sendFile(path.join(__dirname + "/index.html"));
 });
 
 
