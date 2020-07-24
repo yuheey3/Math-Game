@@ -72,7 +72,7 @@ let saveinfo = () => {
     var musicTime = audio.currentTime;
     localStorage.setItem("Music", musicTime);
 
-    window.location.href = '../HTML/start.html';
+    window.location.href = '../HTML/Start.html';
 }
 savebtn.addEventListener("click", saveinfo);
 
