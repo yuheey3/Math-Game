@@ -38,3 +38,9 @@ lv2hits.innerHTML += level2hit;
 lv2miss.innerHTML += level2miss;
 lv3hits.innerHTML += level3hit;
 lv3miss.innerHTML += level3miss;
+
+let btn = document.querySelector("#btn");
+let start = () => {
+    window.location.href = '/HTML/Start.html';  
+}
+btn.addEventListener("click", start);

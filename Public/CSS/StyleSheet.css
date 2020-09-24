@@ -39,6 +39,8 @@ p{
     margin-right: 35rem;
     margin-top:0.7rem;
     font-weight: bold;
+    border-style: double;
+    border-color: coral;
 }
 #btn{
    
@@ -51,6 +53,9 @@ p{
     margin-right: 40rem;
     margin-top: 10rem;
 }
+#btn:hover{
+    background-color:  lightpink;
+    color: rgb(230, 22, 56);}
 
 h1 {
     text-align: center;

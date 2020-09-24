@@ -14,6 +14,17 @@ body {
     background-size: cover;
     background-position: center center;
 }
+#btn {
+    text-decoration: none;
+    color: white;
+    background-color: pink;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    border-radius: 150px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+}
 
 header {
     display: grid;

@@ -92,9 +92,11 @@ h3 {
     background-color: #1b1919;
     padding: 3rem 0 3rem 0;
     margin: 0 6rem 0 6rem;
-    border: 3px solid #808080;
+    border: 3px solid #f0b1b1;
     text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
+    box-shadow: 1px 2px;
 }
+#start > div:nth-child(1)>h3:hover {background-color:white}
 
 #start > div:nth-child(2) > h3 {
     color: blue;
@@ -102,6 +104,8 @@ h3 {
     background-color: #1b1919;
     padding: 3rem 0 3rem 0;
     margin: 0 6rem 0 6rem;
-    border: 3px solid #808080;
+    border: 3px solid #aa9fe9;
     text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
+    box-shadow: 1px 1px;
 }
+#start > div:nth-child(2)>h3:hover {background-color: white}
